@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.xutils3demo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_note"
+        style="@style/ButtonTheme"
+        android:text="注解模块" />
+
+    <Button
+        android:id="@+id/btn_networking"
+        style="@style/ButtonTheme"
+        android:text="联网模块" />
+
+    <Button
+        android:id="@+id/btn_a_picture"
+        style="@style/ButtonTheme"
+        android:text="单张图片模块" />
+
+    <Button
+        android:id="@+id/btn_more_picture"
+        style="@style/ButtonTheme"
+        android:text="多张图片模块" />
+</LinearLayout>
